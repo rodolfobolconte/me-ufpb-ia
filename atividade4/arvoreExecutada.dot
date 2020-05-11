@@ -1,0 +1,58 @@
+digraph ID3_Tree {
+"0" [shape=box, style=filled, label="pontuacao_final
+", weight=1]
+"1" [shape=box, style=filled, label="sobrevivencia
+", weight=2]
+0 -> 1 [ label = "<=349.50"];
+"2" [shape=box, style=filled, label="dano_disparo
+", weight=3]
+1 -> 2 [ label = "<=225.00"];
+"3" [shape=box, style=filled, label="3
+(2522)
+", weight=4]
+2 -> 3 [ label = "<=63.50"];
+"4" [shape=box, style=filled, label="3
+(788/28)
+", weight=4]
+2 -> 4 [ label = ">63.50"];
+"5" [shape=box, style=filled, label="dano_disparo
+", weight=3]
+1 -> 5 [ label = ">225.00"];
+"6" [shape=box, style=filled, label="3
+(502/60)
+", weight=4]
+5 -> 6 [ label = "<=30.50"];
+"7" [shape=box, style=filled, label="3
+(180/53)
+", weight=4]
+5 -> 7 [ label = ">30.50"];
+"8" [shape=box, style=filled, label="sobrevivencia
+", weight=2]
+0 -> 8 [ label = ">349.50"];
+"9" [shape=box, style=filled, label="dano_disparo
+", weight=3]
+8 -> 9 [ label = "<=525.00"];
+"10" [shape=box, style=filled, label="2
+(2683/337)
+", weight=4]
+9 -> 10 [ label = "<=197.50"];
+"11" [shape=box, style=filled, label="1
+(299/248)
+", weight=4]
+9 -> 11 [ label = ">197.50"];
+"12" [shape=box, style=filled, label="dano_disparo
+", weight=3]
+8 -> 12 [ label = ">525.00"];
+"13" [shape=box, style=filled, label="1
+(583/393)
+", weight=4]
+12 -> 13 [ label = "<=128.50"];
+"14" [shape=box, style=filled, label="1
+(2484/40)
+", weight=4]
+12 -> 14 [ label = ">128.50"];
+{rank=same; 0;};
+{rank=same; 1;8;};
+{rank=same; 2;5;9;12;};
+{rank=same; 3;4;6;7;10;11;13;14;};
+}
