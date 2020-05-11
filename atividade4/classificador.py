@@ -9,7 +9,7 @@ from id3 import Id3Estimator
 from id3 import export_graphviz
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score
 
-dados = pd.read_csv('resultados.csv', sep=',', encoding='utf8')
+dados = pd.read_csv('amostras.csv', sep=',', encoding='utf8')
 
 dadosX = dados[['pontuacao_final','sobrevivencia','bonus_ultima_sobrevivencia','dano_disparo','bonus_disparo_morte','colisao_dano','bonus_colisao_morte','1lugar','2lugar','3lugar']].values
 dadosY = dados['classificacao']
