@@ -2,7 +2,7 @@
 ### Curso de Pós-Graduação em Informática (Mestrado)
 ### Universidade Federal da Paraíba (UFPB)
 
-Repositório com Arquivos e Atividades Realizadas na Disciplina de Estrutura de Inteligência Artificial do Curso de Pós-Graduação em Informática da Universidade Federal da Paraíba (UFPB) com a Professora [Natasha Correia](http://lattes.cnpq.br/7853125713114677).
+Repositório com Arquivos e Atividades realizadas na Disciplina de Inteligência Artificial do Curso de Pós-Graduação em Informática da Universidade Federal da Paraíba (UFPB) com a Professora [Natasha Correia](http://lattes.cnpq.br/7853125713114677).
 
 Lista de Atividades:
 
